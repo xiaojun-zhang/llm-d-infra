@@ -124,7 +124,7 @@ jobs:
       - name: Checkout llm-d/llm-d
         uses: actions/checkout@v6
         with:
-          repository: llm-d/llm-d
+          repository: xiaojun-zhang/llm-d
           ref: ${{ inputs.llm_d_ref || github.ref }}
           persist-credentials: false
 
